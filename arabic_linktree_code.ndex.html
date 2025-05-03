@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عنوان القطع - وكيل معتمد لشركة نيسان</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', 'Tajawal', sans-serif;
+        }
+        
+        body {
+            background-color: #707070;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+            direction: rtl;
+        }
+        
+        .container {
+            max-width: 480px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 15px;
+            margin: 0 auto 15px;
+            display: block;
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .title {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .subtitle {
+            color: #e0e0e0;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+        
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .link {
+            background-color: #bb141b;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .link:hover {
+            background-color: #b51d1d;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        .link img {
+            width: 34px;
+            height: 34px;
+            margin-left: 10px;
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px 15px;
+            }
+            
+            .logo {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .title {
+                font-size: 20px;
+            }
+            
+            .subtitle {
+                font-size: 14px;
+            }
+            
+            .link {
+                font-size: 16px;
+                padding: 10px 15px;
+            }
+        }
+    </style>
+    <!-- Load Arabic fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Fix for logo image -->
+        <img src="https://i.ibb.co/tT5FLSt9/Desktop-Screenshot-2025-05-02-19-27-20-41.png" alt="Logo" class="logo">
+        
+        <h1 class="title">عنوان القطع</h1>
+        <p class="subtitle">وكيل معتمد لشركة نيسان</p>
+        
+        <div class="links">
+            <a href="https://onwan.sa/?srsltid=AfmBOooyDwQQgcS6BCulRNYs854f1eniPU4ps2bR5n0r-GNHJQs0zBbu" class="link">
+                <!-- Fix for icon image -->
+                <img src="https://i.ibb.co/RpzMh4Gm/shop-red.png" alt="shop-icon">
+                المتجر الإلكتروني
+            </a>
+            
+            <a href="https://maps.app.goo.gl/ssYAhF34Nn4CncN47?g_st=iw" class="link">
+                <!-- Fix for icon image -->
+                <img src="https://i.ibb.co/PZFHTLjw/loction-red.png" alt="location-icon">
+                موقع المحل
+            </a>
+            
+            <a href="http://Wa.me/+966503250101" class="link">
+                <!-- Fix for icon image -->
+                <img src="https://i.ibb.co/1JPRb3Dx/whatsup-red.png" alt="whatsapp-icon">
+                واتساب
+            </a>
+        </div>
+    </div>
+</body>
+</html>
